@@ -1,0 +1,176 @@
+.elfinder .elfinder-toolbar, .elfinder .elfinder-navbar, .elfinder-statusbar {
+	background: #F8F9FA;
+}
+
+.elfinder .elfinder-button {
+	background: #fff !important;
+}
+
+.elfinder-cwd-file.ui-selected, .elfinder-tree-dir.ui-state-hover, .elfinder-cwd-file.ui-state-hover {
+	background: #0041FF !important;
+	color: #fff;
+}
+
+.ui-state-hover .elfinder-navbar-arrow {
+    background-image: url(../img/arrows-active.png);
+}
+
+.elfinder-cwd table tr:nth-child(odd) {
+	background: none;
+}
+
+.elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover, .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-active {
+	background: none !important;
+	color: #fff;
+}
+
+.elfinder-overlay {
+	background: #000;
+	opacity: 0.5;
+	z-index: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	background: #F8F9FA;
+	font-weight: bold;
+}
+
+.ui-dialog, .elfinder-upload-dialog-wrapper {
+	background: #fff;
+}
+
+.elfinder-upload-dialog-wrapper .ui-button, .ui-dialog-buttonset > button {
+	background: #0041FF !important;
+	color: #fff !important;
+}
+
+.elfinder-upload-dropbox.ui-state-hover {
+	background: #F8F9FA;
+}
+
+.ui-dialog-content, .ui-dialog-buttonpane {
+	background: #fff !important;
+}
+
+.elfinder-cwd-wrapper thead > tr {
+	background: #F8F9FA !important;
+	color: #000;
+}
+
+.elfinder .elfinder-cwd table thead td {
+	
+}
+
+.elfinder .elfinder-cwd table thead td.ui-state-active, .elfinder .elfinder-cwd table thead td.ui-state-hover {
+	background: #F8F9FA !important;
+	font-weight: bold;
+	color: #000;
+}
+
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir{background:url(images/libre-sort.svg)  !important}
+.elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir{background:url(images/libre-sort-desc.svg)  !important}
+.elfinder-cwd-icon-directory,
+.elfinder-droppable-active .elfinder-cwd-icon-directory{background:url(images/libre-folder-open.svg) !important}
+.elfinder-cwd-icon-text,
+.elfinder-cwd-icon-rtf,
+.elfinder-cwd-icon-rtfd{background:url(images/libre-file-text.svg) !important}
+.elfinder-cwd-icon-pdf{background:url(images/libre-file-pdf.svg) !important}
+.elfinder-cwd-icon-vnd-ms-word,
+.elfinder-cwd-icon-vnd-ms-powerpoint,
+.elfinder-cwd-icon-ms-excel,
+.elfinder-cwd-icon-vnd-ms-excel,
+.elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12,
+.elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12,
+.elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12,
+.elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12{background:url(images/libre-file-docs.svg) !important}
+.elfinder-cwd-icon-audio{background:url(images/libre-file-audo.svg) !important}
+.elfinder-cwd-icon-video,
+.elfinder-cwd-icon-flash-video{background:url(images/libre-file-video.svg) !important}
+.elfinder-cwd-icon-application,
+.elfinder-cwd-icon-zip,
+.elfinder-cwd-icon-x-zip,
+.elfinder-cwd-icon-x-xz,
+.elfinder-cwd-icon-x-7z-compressed,
+.elfinder-cwd-icon-x-gzip,
+.elfinder-cwd-icon-x-tar,
+.elfinder-cwd-icon-x-bzip,
+.elfinder-cwd-icon-x-bzip2,
+.elfinder-cwd-icon-x-rar{background:url(images/libre-file-archive.svg) !important}
+.elfinder-cwd-icon-x-empty,
+.elfinder-cwd-icon-inode,
+.elfinder-cwd-icon-html,
+.elfinder-cwd-icon-javascript,
+.elfinder-cwd-icon-x-javascript,
+.elfinder-cwd-icon-x-perl,
+.elfinder-cwd-icon-x-python,
+.elfinder-cwd-icon-x-ruby,
+.elfinder-cwd-icon-x-sh,
+.elfinder-cwd-icon-x-shellscript,
+.elfinder-cwd-icon-x-c,
+.elfinder-cwd-icon-x-csrc,
+.elfinder-cwd-icon-x-chdr,
+.elfinder-cwd-icon-x-c--,
+.elfinder-cwd-icon-x-c--src,
+.elfinder-cwd-icon-x-c--hdr,
+.elfinder-cwd-icon-x-java,
+.elfinder-cwd-icon-x-java-source,
+.elfinder-cwd-icon-x-php,
+.elfinder-cwd-icon-xml{background:url(images/libre-file-code.svg) !important}
+.elfinder-toolbar .elfinder-button-search .ui-icon-search{background:url(images/libre-search.svg) !important}
+.elfinder-toolbar .elfinder-button-search .ui-icon-close{background:url(images/libre-close.svg) !important}
+.elfinder-button-icon-back{background:url(images/libre-chevron-left.svg) !important}
+.elfinder-button-icon-forward{background:url(images/libre-chevron-right.svg) !important}
+.elfinder-button-icon-netmount{background:url(images/libre-server.svg) !important}
+.elfinder-button-icon-reload{background:url(images/libre-refresh.svg) !important}
+.elfinder-button-icon-home{background:url(images/libre-home.svg) !important}
+.elfinder-button-icon-up{background:url(images/libre-level-up.svg) !important}
+.elfinder-button-icon-mkdir{background:url(images/libre-folder-open.svg) !important}
+.elfinder-button-icon-mkfile{background:url(images/libre-file.svg) !important}
+.elfinder-button-icon-upload{background:url(images/libre-upload.svg) !important}
+.elfinder-button-icon-open{background:url(images/libre-folder-open.svg) !important}
+.elfinder-button-icon-download{background:url(images/libre-download.svg) !important}
+.elfinder-button-icon-getfile{background:url(images/libre-download.svg) !important}
+.elfinder-button-icon-info{background:url(images/libre-exclamation-circle.svg) !important}
+.elfinder-button-icon-quicklook{background:url(images/libre-view.svg) !important}
+.elfinder-button-icon-copy{background:url(images/libre-copy.svg) !important}
+.elfinder-button-icon-cut{background:url(images/libre-cut.svg) !important}
+.elfinder-button-icon-paste{background:url(images/libre-paste.svg) !important}
+.elfinder-button-icon-view{background:url(images/libre-layout-blocks.svg) !important}
+.elfinder-button-icon-view-list{background:url(images/libre-layout-list.svg) !important}
+.elfinder-button-icon-help{background:url(images/libre-help.svg) !important}
+.elfinder-button-icon-duplicate{background:url(images/libre-copy.svg) !important}
+.elfinder-button-icon-rm{background:url(images/libre-trash.svg) !important}
+.elfinder-button-icon-edit{background:url(images/libre-edit.svg) !important}
+.elfinder-button-icon-rename{background:url(images/libre-text-cursor.svg) !important}
+.elfinder-button-icon-archive{background:url(images/libre-archive.svg) !important}
+.elfinder-button-icon-resize{background:url(images/libre-crop.svg) !important}
+.elfinder-button-icon-extract{background:url(images/libre-archive.svg) !important}
+.elfinder-button-icon-sort{background:url(images/libre-sort.svg) !important}
+.elfinder-button-icon-fullscreen{background:url(images/libre-resize-full.svg) !important}
+.elfinder-button-icon-unfullscreen{background:url(images/libre-resize-small.svg) !important}
+.elfinder .elfinder-navbar-expanded .elfinder-navbar-arrow{background:none none}
+.elfinder .elfinder-navbar-root>.elfinder-navbar-icon,
+.elfinder .elfinder-navbar-root.elfinder-navbar-expanded>.elfinder-navbar-icon{background:url(images/libre-home.svg) !important}
+.elfinder .elfinder-navbar-icon{background:url(images/libre-folder.svg) !important}
+.elfinder .elfinder-navbar-expanded>.elfinder-navbar-icon{width:14px;height:14px;background:url(images/libre-folder-open.svg);}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-s{background:url(images/libre-caret-down.svg) !important}
+.elfinder .elfinder-cwd-wrapper-list tr.ui-state-default td .ui-icon-triangle-1-n{background:url(images/libre-sort-asc.svg) !important}
+.elfinder-dialog-icon-error{width:32px;height:32px;background:url(images/libre-exclamation-circle.svg) !important}
+.elfinder-dialog-icon-confirm{width:32px;height:32px;background:url(images/libre-question-circle.svg) !important}
+.ui-dialog-titlebar-close,
+.dialogelfinder-drag-close{
+	display:inline-block;
+	background-repeat:no-repeat;
+	width:14px;
+	height:14px;
+	vertical-align:middle;
+	text-decoration:none
+}
+
+.elfinder-quicklook-navbar-icon-fullscreen{background:url(images/libre-resize-full.svg) !important}
+.elfinder-quicklook-navbar-icon-fullscreen-off{background:url(images/libre-resize-small.svg) !important}
+.elfinder-quicklook-navbar-icon-prev{background:url(images/libre-arrow-left.svg) !important}
+.elfinder-quicklook-navbar-icon-next{background:url(images/libre-arrow-right.svg) !important}
+.elfinder-quicklook-navbar-icon-close{background:url(images/libre-close.svg) !important; display:none}
+.dialogelfinder{z-index:20000}
+.elfinder-button-icon-dir{background:url(images/libre-folder.svg) !important;}

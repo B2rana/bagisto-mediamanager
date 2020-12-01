@@ -1,0 +1,27 @@
+{
+    "name": "ridhima/mediamanager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pushkar Rana",
+            "email": "pushkar_rana2005@yahoo.co.in"
+        }
+    ],
+    "require": {
+        "barryvdh/laravel-elfinder": "^0.4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ridhima\\MediaManager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ridhima\\MediaManager\\Providers\\MediaManagerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
