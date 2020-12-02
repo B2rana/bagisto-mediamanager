@@ -24,6 +24,7 @@ You need to copy the assets to the public folder, using the following artisan co
 
 	php artisan config:clear
 	php artisan cache:clear
+	php artisan storage:link
 	php artisan mediamanager:publish
 
 Remember to publish the assets after each update (or add the command to your post-update-cmd in composer.json)
@@ -36,7 +37,7 @@ Add below lines of code in config\filesystems.php to add a new disk.
 ```
 'mediamanager' => [
     'driver' => 'local',
-    'root'   => public_path('media'),
+    'root'   => storage_path('app/public/media'),
 ]
 ```
 
@@ -61,6 +62,7 @@ Ridhima\MediaManager\Providers\MediaManagerServiceProvider::class
 ```
 php artisan config:clear
 php artisan cache:clear
+php artisan storage:link
 php artisan mediamanager:publish
 ```
 4. After that run below command to publish config and additional assets files to make it compatible with Bagisto backend theme
@@ -71,7 +73,7 @@ php artisan vendor:publish --provider='Ridhima\MediaManager\Providers\MediaManag
 ```
 'mediamanager' => [
     'driver' => 'local',
-    'root'   => public_path('media'),
+    'root'   => storage_path('app/public/media'),
 ]
 ```
 Now you can manage the static media files from the dedicated section as well as from the editor.

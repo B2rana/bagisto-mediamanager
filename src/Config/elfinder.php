@@ -27,7 +27,7 @@ return array(
     */
     'disks' => [
         'mediamanager' => [
-            'URL' => '/media',
+            'URL' => env('APP_URL') . '/storage/media',
             'alias' => 'Media Manager',
         ]
     ],
@@ -91,8 +91,14 @@ return array(
     |
     */
     'root_options' => array(
-        'tmbURL' => '/.thumbs/',
-        'tmbPath' => public_path('.thumbs'),
+        'tmbURL' => env('APP_URL') . '/storage/media/.thumbs/',
+        'tmbPath' => storage_path('app/public/media/.thumbs'),
+        'attributes' => [
+            [
+                'pattern' => '/.thumbs/',
+                'hidden' => true,
+            ]
+        ],
     ),
 
 );
