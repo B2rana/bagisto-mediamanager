@@ -22,7 +22,7 @@ Ridhima\MediaManager\Providers\MediaManagerServiceProvider::class
 
 You need to copy the assets to the public folder, using the following artisan commands:
 
-	composer dump-autoload -o
+	composer dump-autoload
 	php artisan config:clear
 	php artisan cache:clear
 	php artisan storage:link
