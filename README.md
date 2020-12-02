@@ -38,7 +38,7 @@ Run below command to publish config and additional assets files to make it compa
 
 	php artisan vendor:publish --provider='Ridhima\MediaManager\Providers\MediaManagerServiceProvider'
 
-Add below lines of code in config\filesystems.php to add a new disk.
+Add below lines of code in **config\filesystems.php** to add a new disk.
 ```
 'mediamanager' => [
     'driver' => 'local',
@@ -78,7 +78,7 @@ php artisan mediamanager:publish
 ```
 php artisan vendor:publish --provider='Ridhima\MediaManager\Providers\MediaManagerServiceProvider'
 ```
-8. Add below lines of code in config\filesystems.php to add a new disk.
+8. Add below lines of code in **config\filesystems.php** to add a new disk.
 ```
 'mediamanager' => [
     'driver' => 'local',
