@@ -10,7 +10,7 @@ This extension integrates [barryvdh/laravel-elfinder](https://github.com/barryvd
 
 ### Install with composer
 
-Require this package with Compose
+Require this package with Composer
 
 	composer require ridhima/mediamanager
 
