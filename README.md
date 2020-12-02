@@ -20,8 +20,10 @@ Add the ServiceProvider to the providers array in app/config/app.php
 Ridhima\MediaManager\Providers\MediaManagerServiceProvider::class
 ```
 
-You need to copy the assets to the public folder, using the following artisan command:
+You need to copy the assets to the public folder, using the following artisan commands:
 
+	php artisan config:clear
+	php artisan cache:clear
 	php artisan mediamanager:publish
 
 Remember to publish the assets after each update (or add the command to your post-update-cmd in composer.json)
@@ -49,14 +51,16 @@ composer require barryvdh/laravel-elfinder:^0.4.6
 ```
 3. Goto composer.json file inside the Bagisto root directory then add the following line under 'psr-4'
 ```
-"Ridhima\\MediaManager\\": "packages/Ridhima/MediaManager"
+"Ridhima\\MediaManager\\": "packages/Ridhima/MediaManager/src"
 ```
 4. Goto **config/app.php** file then add the following line under 'webkul packages'
 ```
 Ridhima\MediaManager\Providers\MediaManagerServiceProvider::class
 ```
-5. Run below artisan command to download the assets to the public folder:
+5. Run below artisan commands to download the assets to the public folder:
 ```
+php artisan config:clear
+php artisan cache:clear
 php artisan mediamanager:publish
 ```
 4. After that run below command to publish config and additional assets files to make it compatible with Bagisto backend theme
