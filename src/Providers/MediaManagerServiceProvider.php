@@ -37,7 +37,7 @@ class MediaManagerServiceProvider extends ServiceProvider
         ], 'public');
 
         Event::listen('bagisto.admin.layout.body.after', function($viewRenderEventManager) {
-            $viewRenderEventManager->addTemplate('mediamanager::admin.layouts.script');
+            $viewRenderEventManager->addTemplate('mediamanager::admin.mediamanager.layouts.script');
         });
     }
 

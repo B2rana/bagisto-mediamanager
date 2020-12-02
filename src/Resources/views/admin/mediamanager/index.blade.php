@@ -1,4 +1,4 @@
-@extends('mediamanager::admin.layouts.master')
+@extends('mediamanager::admin.mediamanager.layouts.master')
 
 @section('page_title')
     {{ __('mediamanager::app.admin.menu.title') }}
