@@ -14,7 +14,7 @@ Require this package with Compose
 
 	composer require ridhima/mediamanager
 
-Add the ServiceProvider to the providers array in app/config/app.php
+Add the ServiceProvider to the providers array in **config/app.php**
 
 ```php
 Ridhima\MediaManager\Providers\MediaManagerServiceProvider::class
