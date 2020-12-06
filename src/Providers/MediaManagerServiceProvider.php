@@ -22,6 +22,8 @@ class MediaManagerServiceProvider extends ServiceProvider
 
         $this->loadTranslationsFrom(__DIR__ . '/../Resources/lang', 'mediamanager');
 
+        $this->publishes([__DIR__.'/../Resources/lang' => resource_path('lang/vendor/mediamanager')]);
+
         $this->publishes([
             __DIR__.'/../Config/elfinder.php' => config_path('elfinder.php'),
         ], 'config');
