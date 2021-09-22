@@ -54,7 +54,7 @@ Rest of the configuration details are mentioned in [barryvdh/laravel-elfinder](h
 1. Unzip all the files to **packages/Ridhima/MediaManager**.
 2. Run composer command to download the required package
 ```
-composer require barryvdh/laravel-elfinder:^0.4.6
+composer require barryvdh/laravel-elfinder:^0.4.7
 ```
 3. Goto composer.json file inside the Bagisto root directory then add the following line under 'psr-4'
 ```

@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "barryvdh/laravel-elfinder": "^0.4.6"
+        "barryvdh/laravel-elfinder": "^0.4.7"
     },
     "autoload": {
         "psr-4": {
