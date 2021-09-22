@@ -25,6 +25,7 @@ Run below commands before publishing assets to the public folder:
 composer dump-autoload
 php artisan config:clear
 php artisan cache:clear
+php artisan route:clear
 php artisan storage:link
 ```
 
