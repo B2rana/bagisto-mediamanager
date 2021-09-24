@@ -74,6 +74,10 @@ class MediaManagerServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(
             dirname(__DIR__) . '/Config/elfinder.php', 'elfinder'
         );
+
+        $this->mergeConfigFrom(
+            dirname(__DIR__) . '/Config/acl.php', 'acl'
+        );
     }
 
     protected function registerElfinderRoutes($router)
