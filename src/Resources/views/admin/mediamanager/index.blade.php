@@ -4,13 +4,13 @@
     {{ __('mediamanager::app.admin.menu.title') }}
 @stop
 
-@section('css')
+@push('css')
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
     <!-- elFinder CSS (REQUIRED) -->
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/mediamanager/css/elfinder.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/mediamanager/css/theme.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/mediamanager/custom/style.css') }}">
-@stop
+@endpush
 
 @section('content')
     <div class="content" style="height: 100%;">
